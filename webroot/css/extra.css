@@ -1,0 +1,16 @@
+.add-image{background-image:url(../img/icons/add.png) !important;}
+.edit-image{background-image:url(../img/icons/page_edit.png) !important;}
+.del-image{background-image:url(../img/icons/delete.png) !important;}
+.upload{background-image:url(../img/icons/up.png) !important;}
+.download{background-image:url(../img/icons/down.png) !important;}
+.refresh{background-image:url(../img/icons/arrow_refresh_small.png) !important;}
+.logout{background-image:url(../img/icons/logout.png) !important;}
+.user{background-image:url(../img/icons/user.png) !important;}
+.pass{background-image:url(../img/icons/bullet_key.png) !important;}
+.archivaldo{background-image:url(../img/icons/archivaldo.png) !important;}
+
+/*Estilos no relacionados con imagenes*/
+.negro{color:#000 !important}
+.rojo{color:#FF0000 !important}
+.bold{font-weight:bold !important}
+.center{text-align:center !important}

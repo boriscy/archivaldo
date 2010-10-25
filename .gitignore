@@ -1,0 +1,10 @@
+*.kpf
+*.swp
+*.swo
+*.log
+*.sqlite3
+*~
+nbproject
+.~lock*
+ç
+*.vim

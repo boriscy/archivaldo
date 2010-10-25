@@ -1,0 +1,31 @@
+Como Instalar Archivaldo
+1.- Primero deben descarga CakePHP, el framework con el cual fue realizado este proyecto
+    - Para descargar dirijanse a esta página y descarguen la versión  1.2.0.7296 RC2
+    - hacen click en la descarga que deseen, y seran reenviados a una página donde se solicita
+    donaciones, puden realizar una donación, sino hagan click en la imagen No Thanks
+2.- una ves que hayan bajado el archivo deben descomprimirlo en un lugar que su servidor Web tenga acceso
+    Esto creara una carpeta llamada "cake_1.2.0.7296-rc2" y que tiene adentro la siguiente lista de archivos
+    - app (dir)
+    - cake (dir)
+    - docs (dir)
+    - vendors (dir)
+    - index.php (archivo)
+    De ahora en adelante lo llamaremos RUTA_DE_INSTALACION a este archivo en su computadora
+    
+3.- descompriman la carpeta en la cual esta archivaldo y copie y reemplaze la carpeta app donde descomprimieron
+    CakePHP
+4.- Crear la base de datos para archivaldo (Es importante recordarles de que archivaldo usa tablas InnoDB)
+5.- Importar en phpmyadmin el archivo de sql que se encuentra en RUTA_DE_INSTALACION/app/DATA/archivaldo.sql
+6.- Ir al archivo RUTA_DE_INSTALACION/app/config/database.php y configuren los parametros para la base de datos
+7.- Vayan a la direccion donde instalaron ej.(http://localhost/DIR_DE_INSTALACION) ingresen con el login/pass, admin/admin
+	(Deben hacer click en el boton de Ingreso)
+
+
+Como Usar archivaldo:
+Archivaldo es muy facil de usar. existen varios botones que describen muy bien su funcionamiento
+
+Requerimientos:
+
+Apache  con mod_rewrite
+PHP5
+MySQL 4.1 o superior con InnoDB
